@@ -1,0 +1,43 @@
+body{
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.top{
+    text-align: center;
+    h4{
+        color: grey;
+    }
+}
+.log{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.vertical-ruler{
+    border-left: 2px solid black;
+    height: 600px;
+}
+.dot{
+    margin-top: 22px;
+    margin-left: -5px;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.dot-n{
+    margin-top: 30px;
+    margin-left: -5px;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.date{
+    color: grey;
+    text-align: right;
+}
